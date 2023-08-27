@@ -22,7 +22,7 @@ Distributed App developed with Hardhat deployed on test blockchain network. User
 
 ## Features
 
-- Browser properties
+- Browser propertie
 - Buy and pay via Metamask with ETH cryptocurrency
 
 ## Technologies
