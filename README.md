@@ -4,7 +4,7 @@ This repository contains a Distributed App Example of  Property Market on deploy
 
 ## Live demo
 
-[tbd](https://realtor-daap-example.vercel.app/)
+https://realtor-daap-example.vercel.app
 
 ## Table of Contents
 
