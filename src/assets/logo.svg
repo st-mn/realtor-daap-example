@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+<title>White square 50&#37; transparency</title>
+<rect x="0" y="0" width="500" height="500" fill="white" opacity="0.5" />
+</svg>
