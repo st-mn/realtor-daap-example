@@ -1,4 +1,4 @@
-# Property Market on Blockchain - Distributed App Example
+# Property Market on Blockchain - Decentralized App Example
 
 This repository contains a Distributed App Example of  Property Market on deployed Blockchain. Inspired by some less known property market app:)
 
