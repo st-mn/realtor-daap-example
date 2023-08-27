@@ -1,3 +1,53 @@
+/**
+Interface IERC721: This is an interface that defines the transferFrom function from the ERC-721 standard. 
+This function is used to transfer ownership of an NFT from one address to another.
+
+Contract Escrow: This is the main contract that implements the escrow functionality for NFT trades.
+
+Constructor: Initializes the contract with the addresses of the NFT contract, seller, inspector, and lender.
+
+Modifiers:
+
+onlyBuyer: Restricts functions to be callable only by the buyer of a specific NFT.
+onlySeller: Restricts functions to be callable only by the seller.
+onlyInspector: Restricts functions to be callable only by the inspector.
+State Variables:
+
+nftAddress: The address of the NFT contract.
+seller: The address of the seller.
+inspector: The address of the inspector.
+lender: The address of the lender.
+Mappings:
+
+isListed: Tracks whether an NFT is listed for sale.
+purchasePrice: Stores the purchase price of each NFT.
+escrowAmount: Stores the escrow amount required for each NFT.
+buyer: Maps NFT IDs to their respective buyers.
+inspectionPassed: Tracks whether an inspection has been passed for each NFT.
+approval: Tracks approval statuses for the sale from different parties.
+Functions:
+
+list: Allows the seller to list an NFT for sale by transferring it to the contract and setting the sale details.
+
+depositEarnest: Allows the buyer to deposit the earnest money required for the escrow.
+
+updateInspectionStatus: Allows the inspector to update the inspection status of an NFT.
+
+approveSale: Allows various parties (including buyer, seller, and lender) to approve the sale.
+
+finalizeSale: Finalizes the sale by transferring NFT ownership and funds when all conditions are met.
+
+cancelSale: Cancels the sale, handling earnest deposit refunds or transferring funds to the seller based on inspection status.
+
+receive: Fallback function to accept Ether payments.
+
+getBalance: Returns the contract's Ether balance.
+
+Overall, this contract implements an escrow mechanism for trading NFTs with various conditions such as inspections, approvals, and specific parties' involvement. 
+It ensures that the sale is only finalized when all requirements are met, and handles the cancellation of sales as well
+**/
+
+
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
