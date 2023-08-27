@@ -46,11 +46,11 @@ git clone https://github.com/st-mn/realtor-daap.git
 ## Build and Run
 
 ```bash
-npm install
-npx hardhat test
-npx hardhat node
-npx hardhat run ./scripts/deploy.js --network localhost
-npm run start
+npm install &&
+npx hardhat test &&
+npx hardhat node &&
+npx hardhat run ./scripts/deploy.js --network localhost &&
+npm run start 
 ```
 
 ## Contributing
