@@ -51,6 +51,8 @@ npx hardhat test &&
 npx hardhat node
 ```
 
+In new terminal:
+
 ```bash
 npx hardhat run ./scripts/deploy.js --network localhost &&
 npm run start 
