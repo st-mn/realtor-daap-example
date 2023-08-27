@@ -40,7 +40,7 @@ The following technologies are used in this project:
 Clone the repository:
 
 ```bash
-git clone https://github.com/st-mn/realtor-daap.git
+git clone https://github.com/st-mn/realtor-daap-example.git
 ```
 
 ## Build and Run
